@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+.container {
+	margin: 40px;
+	padding: 40px;
+	font-family: sans-serif;
+	background-color: wheat;
+    border: 4px solid chocolate;
+    border-radius: 40px;
+}
+
+.error {
+	color: #F9214B;
+	font-weight: bold;
+}
+
+body {
+	
+	margin: auto;
+	background-image:url('https://i.pinimg.com/736x/d6/70/99/d670990fa86f31233a53a22d7bb2f4bc.jpg');
+    background-size: cover;
+    background-position:center;
+}
+h1 {
+	text-align: center;
+}
+table {
+	background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    border: 6px solid ghostwhite;
+    table-layout: fixed;
+    display: table;
+    border-radius: 10px;
+    box-shadow: 5px 8px black;
+    margin-bottom: 20px;
+}
+tr {
+	border-bottom: 1px solid black;
+    background-color: white;
+}
+td {
+	padding: 16px;
+	display: table-cell;
+	max-width: 0px;
+	text-align: center;
+}
+.in-line {
+	display: inline-block;
+}
+.center {
+	text-align: center;
+}
+.float-right {
+	text-align: right;
+}
+.float-left {
+	text-align: left;
+}
+.input {
+	width: 100%;
+    background-color: snow;
+    border-radius: 10px;
+    padding: 5px;
+}
+.linkBtn {
+	background-color: rgb(236,236,236);
+	text-decoration: none;
+	color: black;
+	border: 1px solid rgb(116,116,116);
+	border-radius: 2px;
+	display: block;
+	width: 100%;
+}
+#button, .btn-primary{
+	width: 110px;
+    height: 33px;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    font-family: cursive;
+    font-size: medium;
+}
+.form-control{
+	margin: 10px 0px;
+}
